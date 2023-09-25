@@ -10,9 +10,19 @@ body {
 .flexbox {
 	display: flexbox;
 }
-#filter_buttons {
+.buttons {
 	display: grid;
+}
+#filter_buttons {
 	grid-template-columns: repeat(5, 1fr);
+}
+#filter_buttons a {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #545F71;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px 100px 5px 100px;
 }
 .item {
 	display: grid;
