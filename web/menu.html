@@ -53,10 +53,61 @@
 	<footer class="center">
 		<h1>Didn't found what you were looking for?</h1>
 		<h2>Make your own burger now!</h2>
-		<div class="flexbox">
-		</div>
-		<div class="center buttons" id="ingredient_buttons">
-		</div>
+		<form action="menu.html#forum" id="forum">
+			<div class="flexbox">
+				<div>
+					<label for="bread_type">What bread do you want?</label>
+					<select name="bread_type" id="bread_type">
+						<option value="" disabled selected>Chose the bread</option>
+						<option>Classic</option>
+						<option>Whole bread</option>
+						<option>Cuttlefish ink</option>
+						<option>Curcuma</option>
+						<option>Gluten free bread</option>
+					</select>
+				</div>
+				<div>
+					<label for="meat_type">What meat do you want?</label>
+					<select name="meat_type" id="meat_type">
+						<option value="" disabled selected>Chose the meat</option>
+						<option>Beef</option>
+						<option>Pork</option>
+						<option>Chicken</option>
+						<option>Fish</option>
+						<option>Veggie</option>
+					</select>
+				</div>
+				<div>
+					<label for="sauce_type">What sauce do you want?</label>
+					<select name="sauce_type" id="sauce_type">
+						<option value="" disabled selected>Chose the sauce</option>
+						<option>Mayonnaise</option>
+						<option>Mustard</option>
+						<option>Ketchup</option>
+						<option>Barbecue</option>
+						<option>Curry</option>
+						<option>Spicy</option>
+						<option>Garlic</option>
+						<option>No sauce</option>
+					</select>
+				</div>
+			</div>
+			<div class="center buttons" id="ingredient_buttons">
+				<div><input type="checkbox" id="letuce"> <label for="letuce">Letuce</label></div>
+				<div><input type="checkbox" id="tomato"> <label for="tomato">Tomato</label></div>
+				<div><input type="checkbox" id="pickle"> <label for="pickle">Pickle</label></div>
+				<div><input type="checkbox" id="pepper"> <label for="pepper">Pepper</label></div>
+				<div><input type="checkbox" id="onion"> <label for="onion">Onion</label></div>
+				<div><input type="checkbox" id="cheese"> <label for="cheese">Cheese</label></div>
+				<div><input type="checkbox" id="beacon"> <label for="beacon">Beacon</label></div>
+				<div><input type="checkbox" id="love" checked disabled> <label for="love">Love</label></div>
+			</div>
+			<label>Give us more details<br></label>
+			<textarea name="details" id="details" cols="60" rows="15" placeholder="Rich text editor."></textarea>
+			<br>
+			<input type="reset" value="Reset">
+			<input type="submit" value="Order">
+		</form>
 	</footer>
 </body>
 

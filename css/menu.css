@@ -16,6 +16,9 @@ body {
 #filter_buttons {
 	grid-template-columns: repeat(5, 1fr);
 }
+#ingredient_buttons {
+	grid-template-columns: repeat(8, 1fr);
+}
 #filter_buttons a {
 	color: #ffffff;
 	text-decoration: none;
@@ -43,4 +46,7 @@ body {
 	background-color: yellow;
 	text-align: right;
 	margin-right: 30%;
+}
+textarea {
+	resize: none;
 }
