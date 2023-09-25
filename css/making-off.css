@@ -1,3 +1,14 @@
+header {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+header img {
+	grid-area: 1 / 1 / 2 / 2;
+}
+header h1 {
+	grid-area: 1 / 2 / 2 / 3;
+	text-align: center;
+}
 body {
 	background-image: url(../media/generic-background.jpeg);
 	background-size: cover;

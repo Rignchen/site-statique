@@ -1,7 +1,7 @@
 body {
 	display: grid;
 	margin: 3vi 13vi 0 13vi;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 10vi 39vi;
 	background-image: url("../media/home/background.png");
 	background-repeat: no-repeat;

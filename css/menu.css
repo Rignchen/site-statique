@@ -1,23 +1,43 @@
+/*title*/
+
+header {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+header img {
+	grid-area: 1 / 1 / 2 / 2;
+}
+header h1 {
+	grid-area: 1 / 2 / 2 / 3;
+	text-align: center;
+}
+
+/*background*/
+
 body {
 	background-image: url(../media/generic-background.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-}.center {
+}
+.center {
 	text-align: center;
 }
+
+/*item list menu*/
+
 .flexbox {
 	display: flexbox;
+	flex-flow: row wrap;
+	justify-content: space-around;
 }
 .buttons {
 	display: grid;
 }
 #filter_buttons {
 	grid-template-columns: repeat(5, 1fr);
-}
-#ingredient_buttons {
-	grid-template-columns: repeat(8, 1fr);
+	margin-bottom: 60px;
 }
 #filter_buttons a {
 	color: #ffffff;
@@ -29,23 +49,25 @@ body {
 }
 .item {
 	display: grid;
-	grid-template: 50% 50% / 70% 30% ;
-	background-color: blueviolet;
+	grid-template: auto auto / 250px 100px;
 }
 .item img {
 	grid-area: 1 / 1 / 2 / 3;
-	background-color: red;
 }
 .item strong {
 	grid-area: 2 / 1 / 3 / 2;
-	background-color: green;
 	text-align: center;
 }
 .item p {
 	grid-area: 2 / 2 / 3 / 3;
-	background-color: yellow;
 	text-align: right;
 	margin-right: 30%;
+}
+
+/*forum*/
+
+#ingredient_buttons {
+	grid-template-columns: repeat(8, 1fr);
 }
 textarea {
 	resize: none;
