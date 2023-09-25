@@ -1,0 +1,36 @@
+body {
+	background-image: url(../media/generic-background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}.center {
+	text-align: center;
+}
+.flexbox {
+	display: flexbox;
+}
+#filter_buttons {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+.item {
+	display: grid;
+	grid-template: 50% 50% / 70% 30% ;
+	background-color: blueviolet;
+}
+.item img {
+	grid-area: 1 / 1 / 2 / 3;
+	background-color: red;
+}
+.item strong {
+	grid-area: 2 / 1 / 3 / 2;
+	background-color: green;
+	text-align: center;
+}
+.item p {
+	grid-area: 2 / 2 / 3 / 3;
+	background-color: yellow;
+	text-align: right;
+	margin-right: 30%;
+}

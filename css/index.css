@@ -1,0 +1,22 @@
+body {
+	display: grid;
+	margin: 3vi 13vi 0 13vi;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 10vi 39vi;
+	background-image: url("../media/home/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+#title {
+	grid-area: 1 / 2 / 2 / 3;
+}
+#burger1 {
+	grid-area: 2 / 1 / 3 / 2;
+}
+#burger2 {
+	grid-area: 2 / 2 / 3 / 3;
+}
+#burger3 {
+	grid-area: 2 / 3 / 3 / 4;
+}
