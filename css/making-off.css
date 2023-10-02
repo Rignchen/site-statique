@@ -1,6 +1,13 @@
 header {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #545F71;
+}
+main {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 header img {
 	grid-area: 1 / 1 / 2 / 2;
@@ -8,6 +15,7 @@ header img {
 header h1 {
 	grid-area: 1 / 2 / 2 / 3;
 	text-align: center;
+	font-size: 3em;
 }
 body {
 	background-image: url(../media/generic-background.jpeg);

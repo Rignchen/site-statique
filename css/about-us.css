@@ -3,6 +3,10 @@ header {
 	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	margin-bottom: 15px;
+	border-bottom: 1px solid #545F71;
+}
+main {
+	margin-top: 25px;
 }
 header img {
 	grid-area: 1 / 1 / 2 / 2;

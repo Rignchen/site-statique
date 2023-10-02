@@ -3,6 +3,12 @@
 header {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	border-bottom: 1px solid #545F71;
+}
+main {
+	border-bottom: 1px solid #545F71;
+	margin-top: 25px;
 }
 header img {
 	grid-area: 1 / 1 / 2 / 2;
@@ -10,6 +16,7 @@ header img {
 header h1 {
 	grid-area: 1 / 2 / 2 / 3;
 	text-align: center;
+	font-size: 3em;
 }
 
 /*background*/
