@@ -16,24 +16,24 @@
 		<a href="../../"><img src="../../media/home.png" alt="HOME"></a>
 		<h1 class="center">Burger Paradise</h1>
 	</header>
-	<div class="center buttons" id="filter_buttons">
+	<div class="center flexbox" id="filter_buttons">
 		<a href="beef.html">Beef</a>
 		<a href="pork.html">Pork</a>
 		<a href="../menu.html">Chicken</a>
 		<a href="fish.html">Fish</a>
 		<a href="veggie.html">Veggie</a>
 	</div>
-	<div class="flexbox items"><div class="chicken item">
+	<div class="flexbox items"><div class="chicken">
 			<img src="../../media/burger/chicken.jpg" alt="Chicken Burger">
 			<strong>Chicken Burger</strong>
 			<p>17.50 $</p>
 		</div>
 		</div>
-	<footer class="center">
+	<footer class="center" id="forum">
 		<h1>Didn't found what you were looking for?</h1>
 		<h2>Make your own burger now!</h2>
 		<form action="chicken.html#forum" id="forum">
-			<div class="flexbox">
+			<div class="flexbox" id="selects">
 				<div>
 					<label for="bread_type">What bread do you want?</label>
 					<select name="bread_type" id="bread_type">
@@ -71,7 +71,7 @@
 					</select>
 				</div>
 			</div>
-			<div class="center buttons" id="ingredient_buttons">
+			<div class="center flexbox" id="ingredient_buttons">
 				<div><input type="checkbox" id="letuce"> <label for="letuce">Letuce</label></div>
 				<div><input type="checkbox" id="tomato"> <label for="tomato">Tomato</label></div>
 				<div><input type="checkbox" id="pickle"> <label for="pickle">Pickle</label></div>
@@ -79,7 +79,6 @@
 				<div><input type="checkbox" id="onion"> <label for="onion">Onion</label></div>
 				<div><input type="checkbox" id="cheese"> <label for="cheese">Cheese</label></div>
 				<div><input type="checkbox" id="beacon"> <label for="beacon">Beacon</label></div>
-				<div><input type="checkbox" id="love" checked disabled> <label for="love">Love</label></div>
 			</div>
 			<label>Give us more details<br></label>
 			<textarea name="details" id="details" cols="60" rows="15" placeholder="Rich text editor."></textarea>

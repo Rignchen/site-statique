@@ -32,13 +32,14 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
 }
 .buttons {
 	display: grid;
 }
 #filter_buttons {
-	grid-template-columns: repeat(5, 1fr);
-	margin-bottom: 60px;
+	width: 90%;
 }
 #filter_buttons a {
 	color: #ffffff;
@@ -46,10 +47,15 @@ body {
 	background-color: #545F71;
 	border-radius: 5px;
 	padding: 5px;
-	margin: 5px 100px 5px 100px;
+	width: 80px;
+	margin: 5px;
 }
 /*burgers*/
-div.item {
+.items {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.items div {
 	display: grid;
 	grid-template: auto auto / 250px 100px;
 	width: 350px;
@@ -57,14 +63,14 @@ div.item {
 	margin: 10px;
 	cursor: pointer;
 }
-div.item img {
+.items div img {
 	grid-area: 1 / 1 / 2 / 3;
 }
-div.item strong {
+.items div strong {
 	grid-area: 2 / 1 / 3 / 2;
 	text-align: center;
 }
-div.item p {
+.items div p {
 	grid-area: 2 / 2 / 3 / 3;
 	text-align: right;
 	margin-right: 30%;
@@ -72,9 +78,20 @@ div.item p {
 
 /*forum*/
 
+select {
+	margin: 10px;
+}
 #ingredient_buttons {
 	grid-template-columns: repeat(8, 1fr);
+	width: 85%;
+	margin-bottom: 40px;
 }
 textarea {
-	resize: none;
+	resize: vertical;
+	min-height: 130px;
+}
+#selects {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	max-width: 926.734px;
 }
