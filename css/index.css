@@ -1,6 +1,6 @@
 body {
 	display: grid;
-	margin: 3vi 13vi 0 13vi;
+	margin: 2vi 5vi 0 5vi;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 10vi 39vi;
 	background-image: url("../media/home/background.png");
