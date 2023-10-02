@@ -1,6 +1,8 @@
 header {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	margin-bottom: 15px;
 }
 header img {
 	grid-area: 1 / 1 / 2 / 2;
@@ -8,6 +10,7 @@ header img {
 header h1 {
 	grid-area: 1 / 2 / 2 / 3;
 	text-align: center;
+	font-size: 3em;
 }
 body {
 	background-image: url(../media/generic-background.jpeg);
@@ -22,4 +25,17 @@ body {
 }
 iframe {
 	width: 100%;
+}
+#manager {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 70%;
+}
+#manager span {
+	margin-left: 7%;
+}
+#find_us {
+	margin-top: -10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
