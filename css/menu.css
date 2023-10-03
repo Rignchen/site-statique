@@ -55,7 +55,13 @@ body {
 	border-radius: 5px;
 	padding: 5px;
 	width: 80px;
+	height: 20px;
 	margin: 5px;
+}
+#filter_buttons a#current {
+	height: 14px;
+	background-color: #3c4551;
+	border: black 3px solid;
 }
 /*burgers*/
 .items {
