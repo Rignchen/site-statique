@@ -1,22 +1,52 @@
 body {
 	margin: 0px;
+}
+h1, h2 {
+	margin: 0px;
+}
+#body {
+	margin: 0px;
 	background-image: url("../media/home/background.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	text-align: center;
+	padding-bottom: 100px;
 }
 main {
 	display: grid;
-	margin: 9vh 5vh 0 5vh;
+	margin: 6vh 7vh 0 7vh;
 	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: 60vh;
+	grid-template-rows: 68vh;
 }
 #burger1 {
 	grid-area: 1 / 1 / 2 / 2;
 }
+#burger1 p {
+	margin-top: 10vh;
+}
 #burger2 {
 	grid-area: 1 / 2 / 2 / 3;
 }
+#burger2 p {
+	margin-top: 5vh;
+}
 #burger3 {
 	grid-area: 1 / 3 / 2 / 4;
+}
+#burger3 p {
+	margin-top: 8vh;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #17176e;
+	text-decoration: underline;
+}
+#repeating-background {
+	background-image: url("../media/home/repeating-background.png");
+	background-repeat: repeat-y;
+	background-size: 100%;
+	height: calc(21.9vh - 100px);/**/
 }
