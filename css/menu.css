@@ -78,6 +78,8 @@ body {
 }
 .items div img {
 	grid-area: 1 / 1 / 2 / 3;
+	width: 350px;
+	height: 350px;
 }
 .items div strong {
 	grid-area: 2 / 1 / 3 / 2;
