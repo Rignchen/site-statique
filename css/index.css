@@ -18,18 +18,12 @@ a:hover {
 	a:hover {
 		color: #17176e;
 	}
-	#body {
+	body {
 		margin: 0px;
 		background-image: url("../media/home/background.png");
 		background-repeat: no-repeat;
 		background-size: 100%;
 		padding-bottom: 100px;
-	}
-	#repeating-background {
-		background-image: url("../media/home/repeating-background.png");
-		background-repeat: repeat-y;
-		background-size: 100%;
-		height: calc(21.9vh - 100px);/**/
 	}
 	main {
 		display: grid;
@@ -91,9 +85,6 @@ a:hover {
 	}
 	header:focus + main {
 		display: grid;
-	}
-	#body, #repeating-background {
-		background-image: none;
 	}
 	body {
 		background-image: url("../media/home/background_mobile.png");
